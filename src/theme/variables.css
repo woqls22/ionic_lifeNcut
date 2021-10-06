@@ -234,3 +234,15 @@ http://ionicframework.com/docs/theming/ */
     --ion-card-background: #1e1e1e;
   }
 }
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-y: auto !important;
+  height: 100vh;
+}
+#root { 
+  overflow-y:auto !important;
+}
+.ion-page{
+  overflow-y:auto !important;
+}
